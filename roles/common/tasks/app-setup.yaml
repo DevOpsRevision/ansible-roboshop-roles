@@ -1,4 +1,3 @@
-
 - name: Create Application directory
   ansible.builtin.file:
     path: /app
