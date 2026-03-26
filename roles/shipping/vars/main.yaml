@@ -1,0 +1,5 @@
+MYSQL_HOST: mysql.easydevops.fun
+CART_HOST: cart.easydevops.fun
+
+MYSQL_ROOT_USER: root
+MYSQL_ROOT_PASS: RoboShop@1
