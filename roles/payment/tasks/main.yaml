@@ -3,14 +3,6 @@
     name: common
     tasks_from: app-setup
 
-- name: Make {{ component }} entrypoint executable  
-  ansible.builtin.file:
-    path: "/app/{{ component }}/add_cart.js"
-    mode: '0755'     # = chmod +x (owner rwx, others rx)
-    owner: roboshop
-    group: roboshop
-
-
 - name: python setup
   include_role: 
     name: common
