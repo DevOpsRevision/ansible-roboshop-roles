@@ -6,6 +6,8 @@
 - name: Fix app permissions for root uWSGI
   file:
     path: /app
+    owner: root
+    group: root
     mode: '644'
     recurse: yes
 
